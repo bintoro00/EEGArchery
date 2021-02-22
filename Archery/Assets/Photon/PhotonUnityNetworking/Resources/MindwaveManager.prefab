@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &65369755426551819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65369755426551817}
+  - component: {fileID: 4691641901956646763}
+  - component: {fileID: 314015612521303573}
+  - component: {fileID: 1118224464919427133}
+  m_Layer: 0
+  m_Name: MindwaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &65369755426551817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65369755426551819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4691641901956646763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65369755426551819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb64b1ec34004929b72a673b10d883e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TcpHostname: 127.0.0.1
+  m_TcpPort: 13854
+  m_TryConnectAtStart: 0
+  m_ConnectionTimeout: 10
+  m_UpdateStreamRate: 0.02
+  m_ShowDataPackets: 1
+  m_ShowStreamErrors: 0
+--- !u!114 &314015612521303573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65369755426551819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd673e42cdba449bcbdb055b261cd544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Controller: {fileID: 0}
+  m_DataMode: 0
+  m_MaxDataLength: 100
+  m_DeltaWaves: {x: 0, y: 2000000}
+  m_ThetaWaves: {x: 0, y: 2000000}
+  m_LowAlphaWaves: {x: 0, y: 2000000}
+  m_HighAlphaWaves: {x: 0, y: 2000000}
+  m_LowBetaWaves: {x: 0, y: 2000000}
+  m_HighBetaWaves: {x: 0, y: 2000000}
+  m_LowGammaWaves: {x: 0, y: 2000000}
+  m_HighGammaWaves: {x: 0, y: 2000000}
+--- !u!114 &1118224464919427133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65369755426551819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c14eb7364f849bcbddaae12710adab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
